@@ -1,0 +1,553 @@
+
+[
+  {
+    "url": "../assets/images/applewatch.jpeg",
+    "price": 500,
+    "source": "amazon",
+    "rating": "4",
+    "category": ["trending", "electronics"],
+    "giftFor": ["men", "women", "friends"],
+    "produrl": "https://www.amazon.in"
+  },
+  {
+    "url": "../assets/images/backpack.jpeg",
+    "price": 50,
+    "source": "amazon",
+    "rating": "3",
+    "category": ["trending", "lifestyle"],
+    "giftFor": ["men", "kids", "friends"],
+    "produrl": "https://www.amazon.in"
+  },
+  {
+    "url": "../assets/images/bellies.jpeg",
+    "price": 10,
+    "source": "flipkart",
+    "rating": "4",
+    "category": ["trending", "electronics"],
+    "giftFor": ["women", "friends"],
+    "produrl": "https://www.flipkart.com"
+  },
+  {
+    "url": "../assets/images/blazer.jpeg",
+    "price": 50,
+    "source": "snapdeal",
+    "rating": "3",
+    "category": ["lifestyle", "homedecor"],
+    "giftFor": ["men", "friends"],
+    "produrl": "https://www.snapdeal.com"
+  },
+  {
+    "url": "../assets/images/bodywash.jpeg",
+    "price": 20,
+    "source": "flipkart",
+    "rating": "5",
+    "category": ["lifestyle"],
+    "giftFor": ["men", "friends"],
+    "produrl": "https://www.flipkart.com"
+  },
+  {
+    "url": "../assets/images/boysdress.jpeg",
+    "price": 50,
+    "source": "amazon",
+    "rating": "4",
+    "category": ["trending", "lifestyle"],
+    "giftFor": ["kids", "friends"],
+    "produrl": "https://www.amazon.in"
+  },
+  {
+    "url": "../assets/images/cigarcase.jpeg",
+    "price": 10,
+    "source": "amazon",
+    "rating": "4",
+    "category": ["trending", "homedecor"],
+    "giftFor": ["men"],
+    "produrl": "https://www.amazon.in"
+  },
+  {
+    "url": "../assets/images/cleanser.jpeg",
+    "price": 15,
+    "source": "snapdeal",
+    "rating": "3",
+    "category": ["trending", "lifestyle"],
+    "giftFor": ["women", "friends"],
+    "produrl": "https://www.snapdeal.com"
+  },
+  {
+    "url": "../assets/images/coffeemug.jpeg",
+    "price": 5,
+    "source": "amazon",
+    "rating": "5",
+    "category": ["homedecor"],
+    "giftFor": ["men", "women", "friends"],
+    "produrl": "https://www.amazon.in"
+  },
+  {
+    "url": "../assets/images/comics.jpeg",
+    "price": 1,
+    "source": "amazon",
+    "rating": "5",
+    "category": ["trending", "homedecor"],
+    "giftFor": ["kids", "friends"],
+    "produrl": "https://www.amazon.in"
+  },
+  {
+    "url": "../assets/images/cycle.jpeg",
+    "price": 100,
+    "source": "snapdeal",
+    "rating": "4",
+    "category": ["trending", "appliances"],
+    "giftFor": ["kids", "friends"],
+    "produrl": "https://www.snapdeal.com"
+  },
+  {
+    "url": "../assets/images/dufflebag.jpeg",
+    "price": 60,
+    "source": "amazon",
+    "rating": "3",
+    "category": ["trending", "homedecor"],
+    "giftFor": ["men", "friends"],
+    "produrl": "https://www.amazon.in"
+  },
+  {
+    "url": "../assets/images/girlfrock.jpeg",
+    "price": 30,
+    "source": "flipkart",
+    "rating": "4",
+    "category": ["trending", "lifestyle"],
+    "giftFor": ["women", "friends"],
+    "produrl": "https://www.flipkart.com"
+  },
+  {
+    "url": "../assets/images/eldercup.jpeg",
+    "price": 13,
+    "source": "amazon",
+    "rating": "5",
+    "category": ["trending", "lifestyle"],
+    "giftFor": ["elders"],
+    "produrl": "https://www.amazon.in"
+  },
+  {
+    "url": "../assets/images/eldershirt.jpeg",
+    "price": 8,
+    "source": "snapdeal",
+    "rating": "3",
+    "category": ["lifestyle"],
+    "giftFor": ["elders", "friends"],
+    "produrl": "https://www.snapdeal.com"
+  },
+  {
+    "url": "../assets/images/eldershirt1.jpeg",
+    "price": 7,
+    "source": "amazon",
+    "rating": "4",
+    "category": ["trending", "lifestyle"],
+    "giftFor": ["elders", "friends"],
+    "produrl": "https://www.amazon.in"
+  },
+  {
+    "url": "../assets/images/eyeliner.jpeg",
+    "price": 10,
+    "source": "amazon",
+    "rating": "3",
+    "category": ["lifestyle"],
+    "giftFor": ["women", "friends"],
+    "produrl": "https://www.amazon.in"
+  },
+  {
+    "url": "../assets/images/fancytop.jpeg",
+    "price": 20,
+    "source": "amazon",
+    "rating": "4",
+    "category": ["trending", "lifestyle"],
+    "giftFor": ["women", "friends"],
+    "produrl": "https://www.amazon.in"
+  },
+  {
+    "url": "../assets/images/fitband.jpeg",
+    "price": 35,
+    "source": "flipkart",
+    "rating": "4",
+    "category": ["trending", "electronics"],
+    "giftFor": ["men", "women", "friends"],
+    "produrl": "https://www.flipkart.com"
+  },
+  {
+    "url": "../assets/images/galaxynote.jpeg",
+    "price": 700,
+    "source": "amazon",
+    "rating": "4",
+    "category": ["trending", "electronics"],
+    "giftFor": ["men", "women", "friends"],
+    "produrl": "https://www.amazon.in"
+  },
+  {
+    "url": "../assets/images/galaxys10.jpeg",
+    "price": 650,
+    "source": "flipkart",
+    "rating": "4",
+    "category": ["trending", "electronics"],
+    "giftFor": ["men", "women", "friends"],
+    "produrl": "https://www.flipkart.com"
+  },
+  {
+    "url": "../assets/images/gearsmartwatch.jpeg",
+    "price": 100,
+    "source": "flipkart",
+    "rating": "4",
+    "category": ["trending", "electronics"],
+    "giftFor": ["men", "women", "friends"],
+    "produrl": "https://www.flipkart.com"
+  },
+  {
+    "url": "../assets/images/girlcase.jpeg",
+    "price": 5,
+    "source": "snapdeal",
+    "rating": "2",
+    "category": ["trending"],
+    "giftFor": ["women", "friends"],
+    "produrl": "https://www.snapdeal.com"
+  },
+  {
+    "url": "../assets/images/girlcasemobile.jpeg",
+    "price": 6,
+    "source": "flipkart",
+    "rating": "3",
+    "category": ["trending"],
+    "giftFor": ["women", "friends"],
+    "produrl": "https://www.flipkart.com"
+  },
+  {
+    "url": "../assets/images/echodot.jpeg",
+    "price": 100,
+    "source": "flipkart",
+    "rating": "5",
+    "category": ["trending", "electronics"],
+    "giftFor": ["men", "women", "friends"],
+    "produrl": "https://www.flipkart.com"
+  },
+
+  {
+    "url": "../assets/images/girlfrock1.jpeg",
+    "price": 35,
+    "source": "snapdeal",
+    "rating": "3",
+    "category": ["trending", "lifestyle"],
+    "giftFor": ["women", "friends"],
+    "produrl": "https://www.snapdeal.com"
+  },
+  {
+    "url": "../assets/images/googlevr.jpeg",
+    "price": 100,
+    "source": "flipkart",
+    "rating": "4",
+    "category": ["trending", "electronics"],
+    "giftFor": ["men", "women", "kids", "friends"],
+    "produrl": "https://www.flipkart.com"
+  },
+  {
+    "url": "../assets/images/groomingkit.jpeg",
+    "price": 30,
+    "source": "snapdeal",
+    "rating": "3",
+    "category": ["trending", "electronics"],
+    "giftFor": ["men", "friends"],
+    "produrl": "https://www.snapdeal.com"
+  },
+  {
+    "url": "../assets/images/hairdryer.jpeg",
+    "price": 30,
+    "source": "flipkart",
+    "rating": "4",
+    "category": ["trending", "electronics"],
+    "giftFor": ["women", "friends"],
+    "produrl": "https://www.flipkart.com"
+  },
+  {
+    "url": "../assets/images/handbag.jpeg",
+    "price": 50,
+    "source": "snapdeal",
+    "rating": "4",
+    "category": ["trending", "electronics"],
+    "giftFor": ["women", "friends"],
+    "produrl": "https://www.snapdeal.com"
+  },
+  {
+    "url": "../assets/images/headphones.jpeg",
+    "price": 200,
+    "source": "amazon",
+    "rating": "4",
+    "category": ["trending", "electronics"],
+    "giftFor": ["men", "women", "friends"],
+    "produrl": "https://www.amazon.in"
+  },
+  {
+    "url": "../assets/images/helmet.jpeg",
+    "price": 40,
+    "source": "snapdeal",
+    "rating": "3",
+    "category": ["trending", "lifestyle"],
+    "giftFor": ["men", "elders", "friends"],
+    "produrl": "https://www.snapdeal.com"
+  },
+  {
+    "url": "../assets/images/helmetwomen.jpeg",
+    "price": 35,
+    "source": "flipkart",
+    "rating": "3",
+    "category": ["trending", "lifestyle"],
+    "giftFor": ["women", "elders", "friends"],
+    "produrl": "https://www.flipkart.com"
+  },
+  {
+    "url": "../assets/images/highheels.jpeg",
+    "price": 50,
+    "source": "amazon",
+    "rating": "4",
+    "category": ["trending", "lifestyle"],
+    "giftFor": ["women", "elders", "friends"],
+    "produrl": "https://www.amazon.in"
+  },
+  {
+    "url": "../assets/images/hoody.jpeg",
+    "price": 75,
+    "source": "snapdeal",
+    "rating": "4",
+    "category": ["trending", "lifestyle"],
+    "giftFor": ["men", "elders", "friends"],
+    "produrl": "https://www.snapdeal.com"
+  },
+  {
+    "url": "../assets/images/hotpack.jpeg",
+    "price": 15,
+    "source": "flipkart",
+    "rating": "2",
+    "category": ["trending", "appliances"],
+    "giftFor": ["men", "women", "kids", "elders"],
+    "produrl": "https://www.flipkart.com"
+  },
+  {
+    "url": "../assets/images/iphone11pro.jpeg",
+    "price": 1040,
+    "source": "amazon",
+    "rating": "3",
+    "category": ["trending", "electronics"],
+    "giftFor": ["men", "women", "elders", "friends"],
+    "produrl": "https://www.amazon.in"
+  },
+  {
+    "url": "../assets/images/iphonecase.jpeg",
+    "price": 45,
+    "source": "snapdeal",
+    "rating": "1",
+    "category": ["trending", "electronics"],
+    "giftFor": ["men", "women", "elders", "friends"],
+    "produrl": "https://www.snapdeal.com"
+  },
+  {
+    "url": "../assets/images/jogtrack.jpeg",
+    "price": 35,
+    "source": "flipkart",
+    "rating": "4",
+    "category": ["trending", "lifestyle"],
+    "giftFor": ["men", "elders"],
+    "produrl": "https://www.flipkart.com"
+  },
+  {
+    "url": "../assets/images/kidsshoes.jpeg",
+    "price": 20,
+    "source": "snapdeal",
+    "rating": "4",
+    "category": ["trending", "lifestyle"],
+    "giftFor": ["men", "elders", "friends"],
+    "produrl": "https://www.snapdeal.com"
+  },
+  {
+    "url": "../assets/images/lipbalm.jpeg",
+    "price": 5,
+    "source": "flipkart",
+    "rating": "3",
+    "category": ["lifestyle"],
+    "giftFor": ["men", "women", "kids", "elders"],
+    "produrl": "https://www.flipkart.com"
+  },
+  {
+    "url": "../assets/images/longboots.jpeg",
+    "price": 100,
+    "source": "amazon",
+    "rating": "3",
+    "category": ["trending", "lifestyle"],
+    "giftFor": ["men", "elders", "friends"],
+    "produrl": "https://www.amazon.in"
+  },
+  {
+    "url": "../assets/images/longcoat.jpeg",
+    "price": 90,
+    "source": "snapdeal",
+    "rating": "4",
+    "category": ["trending", "lifestyle"],
+    "giftFor": ["men", "elders", "friends"],
+    "produrl": "https://www.snapdeal.com"
+  },
+  {
+    "url": "../assets/images/makeupkit.jpeg",
+    "price": 50,
+    "source": "flipkart",
+    "rating": "3",
+    "category": ["trending", "lifestyle"],
+    "giftFor": ["women", "elders", "friends"],
+    "produrl": "https://www.flipkart.com"
+  },
+  {
+    "url": "../assets/images/marveluniverse.jpeg",
+    "price": 30,
+    "source": "amazon",
+    "rating": "4",
+    "category": ["trending", "electronics"],
+    "giftFor": ["kids", "friends"],
+    "produrl": "https://www.amazon.in"
+  },
+  {
+    "url": "../assets/images/menwatch.jpeg",
+    "price": 100,
+    "source": "snapdeal",
+    "rating": "3",
+    "category": ["trending", "electronics", "lifestyle"],
+    "giftFor": ["men", "elders", "friends"],
+    "produrl": "https://www.snapdeal.com"
+  },
+  {
+    "url": "../assets/images/nintendojuniors.jpeg",
+    "price": 50,
+    "source": "flipkart",
+    "rating": "2",
+    "category": ["trending", "electronics"],
+    "giftFor": ["kids"],
+    "produrl": "https://www.flipkart.com"
+  },
+  {
+    "url": "../assets/images/officebag.jpeg",
+    "price": 250,
+    "source": "amazon",
+    "rating": "3",
+    "category": ["trending", "lifestyle"],
+    "giftFor": ["men", "elders", "friends"],
+    "produrl": "https://www.amazon.in"
+  },
+  {
+    "url": "../assets/images/parkerpen.jpeg",
+    "price": 2,
+    "source": "snapdeal",
+    "rating": "4",
+    "category": ["trending"],
+    "giftFor": ["men", "elders", "friends"],
+    "produrl": "https://www.snapdeal.com"
+  },
+  {
+    "url": "../assets/images/pendant.jpeg",
+    "price": 450,
+    "source": "flipkart",
+    "rating": "4",
+    "category": ["trending", "lifestyle"],
+    "giftFor": ["women", "elders", "friends"],
+    "produrl": "https://www.flipkart.com"
+  },
+  {
+    "url": "../assets/images/pixel3.png",
+    "price": 740,
+    "source": "amazon",
+    "rating": "3",
+    "category": ["trending", "electronics"],
+    "giftFor": ["men", "women", "elders", "friends"],
+    "produrl": "https://www.amazon.in"
+  },
+  {
+    "url": "../assets/images/powerbeatspro.jpeg",
+    "price": 150,
+    "source": "snapdeal",
+    "rating": "4",
+    "category": ["trending", "electronics"],
+    "giftFor": ["men", "women", "elders", "friends"],
+    "produrl": "https://www.snapdeal.com"
+  },
+  {
+    "url": "../assets/images/ps4.jpeg",
+    "price": 500,
+    "source": "flipkart",
+    "rating": "4",
+    "category": ["trending", "electronics"],
+    "giftFor": ["men", "kids", "elders"],
+    "produrl": "https://www.flipkart.com"
+  },
+  {
+    "url": "../assets/images/ps4joystick.jpeg",
+    "price": 60,
+    "source": "amazon",
+    "rating": "3",
+    "category": ["trending", "electronics"],
+    "giftFor": ["men", "kids", "elders", "friends"],
+    "produrl": "https://www.amazon.in"
+  },
+  {
+    "url": "../assets/images/purse.jpeg",
+    "price": 40,
+    "source": "snapdeal",
+    "rating": "4",
+    "category": ["trending", "lifestyle"],
+    "giftFor": ["men", "elders", "friends"],
+    "produrl": "https://www.snapdeal.com"
+  },
+  {
+    "url": "../assets/images/rugsack.jpeg",
+    "price": 250,
+    "source": "flipkart",
+    "rating": "4",
+    "category": ["trending", "lifestyle"],
+    "giftFor": ["men", "elders"],
+    "produrl": "https://www.flipkart.com"
+  },
+  {
+    "url": "../assets/images/schoolbag.jpeg",
+    "price": 1040,
+    "source": "amazon",
+    "rating": "3",
+    "category": ["trending", "electronics"],
+    "giftFor": ["kids"],
+    "produrl": "https://www.amazon.in"
+  },
+  {
+    "url": "../assets/images/schoolbaggirls.jpeg",
+    "price": 40,
+    "source": "snapdeal",
+    "rating": "4",
+    "category": ["trending"],
+    "giftFor": ["kids"],
+    "produrl": "https://www.snapdeal.com"
+  },
+  {
+    "url": "../assets/images/scooter.jpeg",
+    "price": 250,
+    "source": "flipkart",
+    "rating": "4",
+    "category": ["trending"],
+    "giftFor": ["kids"],
+    "produrl": "https://www.flipkart.com"
+  },
+  {
+    "url": "../assets/images/smartwatchwomen.jpeg",
+    "price": 540,
+    "source": "amazon",
+    "rating": "3",
+    "category": ["trending", "electronics"],
+    "giftFor": ["women", "friends"],
+    "produrl": "https://www.amazon.in"
+  },
+  {
+    "url": "../assets/images/socksgirls.jpeg",
+    "price": 20,
+    "source": "snapdeal",
+    "rating": "3",
+    "category": ["trending", "lifestyle"],
+    "giftFor": ["women", "elders"],
+    "produrl": "https://www.snapdeal.com"
+  }
+]

@@ -1,0 +1,92 @@
+.example-all-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* overflow: hidden; */
+}
+ .full-container {
+  flex: 1 0 auto;
+}
+
+.main-toolbar {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+}
+
+.example-content-container {
+  overflow-x: hidden;
+  /* position: absolute; */
+  top: 70px;
+  height: 100%;
+}
+.example-sidenav-content {
+  display: flex;
+  overflow-x: hidden;
+  height: 100%;
+
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.example-sidenav {
+  top: 70px;
+  /* height: 100%; */
+}
+
+.search-divi {
+  padding-left: 400px;
+  /* padding-top: 10px */
+  /* background-color: white; */
+}
+.baseline-extend {
+  width: 800px;
+  font-size: 21px;
+  /* color: white; */
+  }
+
+  ::ng-deep input.mat-input-element {
+    color: white;
+
+  }
+  ::ng-deep .mat-form-field.mat-focused .mat-form-field-label {
+    color: white !important;
+  }
+  ::ng-deep .mat-focused .mat-form-field-underline .mat-form-field-ripple{
+    background-color: white !important;
+  }
+
+  ::ng-deep .mat-form-field-empty.mat-form-field-label {
+    color: white;
+}
+::ng-deep .mat-form-field-empty.mat-form-field-underline {
+  background-color: white;
+}
+
+::ng-deep .mat-form-field .mat-form-field-underline {
+  background-color: white;
+}
+::ng-deep .mat-form-field label {
+  font-size: 22px;
+}
+::ng-deep .mat-form-field.mat-form-field-should-float label {
+  font-size: 20px;
+}
+.mat-icon {
+  color: white;
+  font-size: 24px
+}
+
+  .profile-name {
+    font-size: 28px;
+    color: white;
+    font-family: Impact, Charcoal, sans-serif;
+    display: block;
+    position: relative;
+    /* left: 1750px; */
+    top: -65px
+  }

@@ -1,0 +1,11 @@
+<!-- <p>side-bar works!</p> -->
+
+<div class="sidenav mat-elevation-z2" style="background: linear-gradient(to bottom, #4B79A1, #283E51);">
+<h5>Filter</h5>
+  <mat-checkbox class="example-margin" [(ngModel)]="isChecked" (click)="checkedEvent(isChecked?'notMen':'men')">Men</mat-checkbox>
+  <mat-checkbox class="example-margin" [(ngModel)]="isCheckedW" (click)="checkedEvent(isCheckedW?'notWomen':'women')">Women</mat-checkbox>
+  <mat-checkbox class="example-margin" [(ngModel)]="isCheckedK" (click)="checkedEvent(isCheckedK?'notKids':'kids')">Kids</mat-checkbox>
+  <mat-checkbox class="example-margin" [(ngModel)]="isCheckedF" (click)="checkedEvent(isCheckedF?'notFriends':'friends')">Friends</mat-checkbox>
+  <mat-checkbox class="example-margin" [(ngModel)]="isCheckedE" (click)="checkedEvent(isCheckedE?'notElders':'elders')">Elders</mat-checkbox>
+  <mat-checkbox class="example-margin" [(ngModel)]="isCheckedA" (click)="checkedEvent(isCheckedA?'notAll':'all')">All</mat-checkbox>
+  </div>

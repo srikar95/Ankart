@@ -1,0 +1,120 @@
+<!-- <p>signin works!</p> -->
+
+<!-- <div class="row">
+  <div class="col-12">
+    <form #loginForm="ngForm" (ngSubmit)="login(loginForm)">
+
+      <div class="row" *ngIf="authError">
+        <div class="col-12 alert alert-danger">{{ authError?.message }}</div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <label for="email">Email</label>
+          <input ngModel #email="ngModel" name="email" type="email" class="form-control">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <label for="password">Password</label>
+          <input ngModel #password="ngModel" name="password" type="password" class="form-control">
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col-12">
+          <a href="/register">Click here to register</a>
+        </div>
+
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Login</button>
+        </div>
+      </div>
+
+    </form>
+  </div>
+</div> -->
+
+<!-- <div class="limiter" >
+    <div class="container-login100"  style="background-image: url('../assets/online-shopping-e-commerce-concept-background.jpg');">
+        <mat-card class="wrap-login100">
+            <div class="m-b-15" fxLayout="row" fxLayoutAlign="center center">
+              <!--  <img src="../../../assets/garuda_login.svg" width="200px"> -->
+          <!--  </div>
+            <mat-card-content class="content-display">
+                <form [formGroup]="userForm" (ngSubmit)="login()">
+                    <mat-form-field class="display-block">
+                        <input type="email" placeholder="Email" formControlName="email" required matInput>
+                      <!--   <mat-error *ngIf="formErrors.email">{{formErrors.email}}</mat-error> -->
+                  <!--  </mat-form-field>
+                    <mat-form-field class="display-block" >
+                        <input [type]="hide ? 'password' : 'text'" placeholder="Password" formControlName="password" required matInput>
+                        <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                      <!--   <mat-error *ngIf="formErrors.password">{{formErrors.password}}</mat-error> -->
+                  <!--  </mat-form-field>
+                  <!--  <div class="m-b-15">
+                        <mat-checkbox class="remember-me">Remember
+                        </mat-checkbox>
+                    </div> -->
+                  <!--   <div class="m-b-15" fxLayout="column" fxLayoutAlign="center center">
+                        <button mat-raised-button class="submit-bt" color="primary" [disabled]="!userForm.valid || submitted">Submit</button>
+                      <!--   <mat-error *ngIf="error" class="alert alert-danger">{{error}}</mat-error> -->
+                  <!--  </div>
+                    <div class="w-100">
+                        <mat-spinner *ngIf="loading" [diameter]="70">
+                        </mat-spinner>
+                    </div>
+                    <!-- <div class="m-b-15" fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="15px">
+                        <p class="notyet">Not a member yet?</p> <a class="signup td-none" [routerLink]="['/become-a-member']"> Sign up</a>
+                    </div> -->
+               <!--  </form>
+                <div class="notyetSignup">
+                    <span class="notyet">Not a member yet?</span> <span class="signup td-none" [routerLink]="['/signup']"> Sign up</span>
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div> -->
+
+
+<div class="limiter">
+    <div class="container-login100"  style="background-image: url('../assets/online-shopping-e-commerce-concept-background.jpg');">
+        <mat-card class="wrap-login100">
+            <div>
+              <!--  <img src="../../../assets/garuda_login.svg" width="200px"> -->
+            </div>
+            <mat-card-content class="content-display">
+                <form #userForm="ngForm">
+                    <mat-form-field class="display-block">
+                        <input type="email" placeholder="Email" name="email" [(ngModel)]="user.user_email" required matInput>
+                      <!--   <mat-error *ngIf="formErrors.email">{{formErrors.email}}</mat-error> -->
+                    </mat-form-field>
+                    <mat-form-field class="display-block" >
+                        <input type="password" placeholder="Password" name="password" [(ngModel)]="user.user_password" required matInput minlength=6>
+                        <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility' : 'visibility_off'}}</mat-icon>
+                      <!--   <mat-error *ngIf="formErrors.password">{{formErrors.password}}</mat-error> -->
+                    </mat-form-field>
+                  <!--  <div class="m-b-15">
+                        <mat-checkbox class="remember-me">Remember
+                        </mat-checkbox>
+                    </div> -->
+                    <div>
+                        <button mat-raised-button class="submit-bt" color="primary" [disabled]="!userForm.valid || submitted" (click)="login()">Submit</button>
+                      <!--   <mat-error *ngIf="error" class="alert alert-danger">{{error}}</mat-error> -->
+                    </div>
+                    <div class="w-100">
+                        <mat-spinner *ngIf="loading" [diameter]="70">
+                        </mat-spinner>
+                    </div>
+                    <!-- <div class="m-b-15" fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="15px">
+                        <p class="notyet">Not a member yet?</p> <a class="signup td-none" [routerLink]="['/become-a-member']"> Sign up</a>
+                    </div> -->
+                </form>
+                <div class="notyetSignup">
+                    <span class="notyet">Not a member yet?</span> <span class="signup td-none" [routerLink]="['/signup']"> Sign up</span>
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>

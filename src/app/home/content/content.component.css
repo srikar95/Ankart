@@ -1,0 +1,33 @@
+.example-card {
+  width: 300px;
+  background-image: linear-gradient(to right top, #053737, #00555c, #007488, #0093b8, #12b2eb);
+}
+.grid-layout-custom{
+  width: 88vw;
+  height: 69vh;
+  /* overflow-y: scroll; */
+}
+.example-header-image {
+  background-image: url('../../../favicon.ico');
+  background-size: cover;
+}
+
+.ratePrice {
+  /* background-color: aqua; */
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-height: 25px;
+}
+
+.forCat {
+  /* background-color: aqua; */
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  max-height: 25px;
+}

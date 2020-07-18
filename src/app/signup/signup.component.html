@@ -1,0 +1,92 @@
+<!-- <p>signup works!</p> -->
+
+<!-- <div class="row mt-4">
+  <div class="col-12">
+    <h4>User Registration</h4>
+  </div>
+
+  <div class="col-12">
+    <div class="row" *ngIf="authError">
+      <div class="col-12 alert alert-danger">
+        {{ authError?.message }}
+      </div>
+    </div>
+    <form #userRegForm="ngForm" (ngSubmit)="createUser(userRegForm)">
+      <div class="row">
+        <div class="col-md-6 mb-2">
+          <label for="firstName">First name</label>
+          <input ngModel #firstname="ngModel" name="firstName" type="text" class="form-control" id="firstName">
+        </div>
+        <div class="col-md-6 mb-2">
+          <label for="lastName">Last name</label>
+          <input ngModel #lastname="ngModel" name="lastName" type="text" class="form-control" id="lastName" value="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mb-2">
+          <label for="phone">Phone</label>
+          <input ngModel #phone="ngModel" name="phone" type="number" class="form-control">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mb-2">
+          <label for="email">Email</label>
+          <input ngModel #email="ngModel" name="email" type="email" class="form-control">
+        </div>
+      </div>
+      <div>
+        <div class="row">
+          <div class="col-md-12 mb-2">
+            <label for="password">Password</label>
+            <input ngModel #password="ngModel" name="password" type="password" class="form-control">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 mb-2">
+            <label>Confirm Password</label>
+            <input name="password" type="password" class="form-control">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <button class="btn btn-primary" type="submit">Submit</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div> -->
+
+<div class="limiter">
+    <div class="container-login100"  style="background-image: url('../assets/online-shopping-e-commerce-concept-background.jpg');">
+        <mat-card class="wrap-login100">
+            <div>
+              <!--  <img src="../../../assets/garuda_login.svg" width="200px"> -->
+            </div>
+            <mat-card-content class="content-display">
+                <form #userForm="ngForm">
+                    <mat-form-field class="display-block">
+                        <input type="text" placeholder="Name" name="name" [(ngModel)]="user.user_name" required matInput>
+                    </mat-form-field>
+                    <mat-form-field class="display-block">
+                        <input type="email" placeholder="Email" name="email" [(ngModel)]="user.user_email" required matInput>
+                    </mat-form-field>
+                    <mat-form-field class="display-block" >
+                        <input type="password" placeholder="Password" name="password" [(ngModel)]="user.user_password" required matInput minlength=6>
+                      <!--  <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility' : 'visibility_off'}}</mat-icon> -->
+                    </mat-form-field>
+                    <div>
+                        <button mat-raised-button class="submit-bt" color="primary" [disabled]="!userForm.valid || submitted" (click)="register()">Sign Up</button>
+                    </div>
+                    <div class="w-100">
+                        <mat-spinner *ngIf="loading" [diameter]="70">
+                        </mat-spinner>
+                    </div>
+                </form>
+                <div class="notyetSignup">
+                    <span class="notyet">Already have an acoount?</span> <span class="signup td-none" [routerLink]="['/signin']"> Sign in</span>
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>

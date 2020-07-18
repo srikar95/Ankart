@@ -1,0 +1,46 @@
+<!-- <p>home works!</p> -->
+<div class="example-all-container" autosize>
+<div class="main-toolbar mat-elevation-z2" style="background: linear-gradient(to right, #4B79A1, #283E51);">
+  <div class="search-divi">
+    <mat-form-field class="baseline-extend">
+          <input matInput placeholder="Search any item..." [matAutocomplete]="auto" name='model' [ngModel]='model' (ngModelChange)='changed($event)'>
+          <mat-icon matSuffix >search</mat-icon>
+          <mat-autocomplete #auto="matAutocomplete" (optionSelected)="selected($event)" [displayWith]="displayFn">
+          <!--  <mat-option *ngFor="let option of suggestionsFilteredList" [value]="option.name">
+              {{option['source']}}
+            </mat-option> -->
+          </mat-autocomplete>
+        </mat-form-field>
+  </div>
+</div>
+
+<mat-sidenav-container class="full-container" autosize>
+
+  <mat-sidenav mode="side" opened="true" class="example-sidenav" autosize>
+    <app-side-bar mode="side" opened="true" (checked)='displayChecked($event)'></app-side-bar>
+  </mat-sidenav>
+
+  <div class="example-content-container">
+  <router-outlet>
+    <app-content class="example-sidenav-content" [suggestionsFilteredList]="suggestionsFilteredList"></app-content>
+  </router-outlet>
+  </div>
+
+
+ </mat-sidenav-container>
+</div>
+
+<!--
+  <div class="search-divi">
+        <mat-form-field class="baseline-extend">
+          <input matInput placeholder="Search" [matAutocomplete]="auto" name='model' [ngModel]='model' (ngModelChange)='changed($event)'>
+          <mat-icon matSuffix >search</mat-icon>
+          <mat-autocomplete #auto="matAutocomplete" (optionSelected)="selected($event)">
+            <mat-option *ngFor="let option of suggestionsFilteredList" [value]="option">
+              {{option}}
+            </mat-option>
+          </mat-autocomplete>
+        </mat-form-field>
+      </div>
+    <span class="profile-name">Hi {{name ? name : 'User'}}</span>
+-->
